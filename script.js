@@ -48,5 +48,13 @@ function removeFailedStudent() {
 }
 
 function concatenateArray() {
-  //Write your code here, just console.log
+  var brr = [
+    { id: 4, name: "krishna", age: "99", marks: 33 },
+    { id: 5, name: "ankita", age: "27", marks: 76 },
+    { id: 6, name: "tushar", age: "47", marks: 0 }
+  ]
+  var result = arr.concat(brr);
+  result.forEach(function(student){
+    console.log(student);
+  })
 }
